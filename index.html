@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Code Editor by Agamdeep Singh</title>
+    <link rel="stylesheet" href="./styling.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header id="navigation">
+        <h1 id="heading-text">Live Code Editor By <a href="https://github.com/CodeWithAgam" target="blank">Agamdeep Singh</a></h1>
+    </header>
+    <main>
+        <section class="code-area">
+            <textarea id="html" placeholder="HTML" oninput="showPreview()"></textarea>
+            <textarea id="css" placeholder="CSS" oninput="showPreview()"></textarea>
+            <textarea id="js" placeholder="JavaScript" oninput="showPreview()"></textarea>
+        </section>
+        <section class="preview-area">
+            <iframe id="preview-window"></iframe>
+        </section>
+    </main>
+</body>
+</html>
