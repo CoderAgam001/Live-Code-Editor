@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Consolas', monospace;
 }
 
 main{display: flex;}
@@ -17,8 +16,6 @@ main{display: flex;}
     font-size: 2em;
     color: #ff0037;
     text-align: center;
-    /* display: grid;
-    place-items: center; */
 }
 a{
     color: #ff0037;
